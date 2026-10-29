@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
   <title id="title">OAIA Studio</title>
-  <desc id="desc">A charcoal studio wordmark beside overlapping image canvases, with an original illustration of a sunlit coast in green, blue, and warm coral.</desc>
+  <desc id="desc">A navy studio wordmark beside overlapping image canvases, with an original illustration of a sunlit coast in shades of blue and warm coral.</desc>
   <defs>
     <linearGradient id="backdrop" x2="1" y2="1">
-      <stop stop-color="#151d1a"/>
-      <stop offset="1" stop-color="#233b30"/>
+      <stop stop-color="#151d2b"/>
+      <stop offset="1" stop-color="#253b59"/>
     </linearGradient>
     <linearGradient id="sky" x2="0" y2="1">
       <stop stop-color="#f2a87c"/>
       <stop offset="1" stop-color="#f5d7a4"/>
     </linearGradient>
     <linearGradient id="water" x2="0.85" y2="1">
-      <stop stop-color="#379b9a"/>
-      <stop offset="1" stop-color="#13515c"/>
+      <stop stop-color="#377fba"/>
+      <stop offset="1" stop-color="#174c79"/>
     </linearGradient>
     <clipPath id="canvas"><rect width="424" height="370" rx="5"/></clipPath>
     <filter id="shadow" x="-30%" y="-30%" width="170%" height="170%">
-      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#08120e" flood-opacity=".48"/>
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#09111e" flood-opacity=".48"/>
     </filter>
   </defs>
 
   <rect width="1200" height="630" fill="url(#backdrop)"/>
   <path d="M0 552H1200" stroke="#f4efe1" stroke-opacity=".08"/>
 
-  <g transform="translate(72 120)" fill="none" stroke="#a8d974" stroke-width="7" stroke-linecap="round">
+  <g transform="translate(72 120)" fill="none" stroke="#99c5ff" stroke-width="7" stroke-linecap="round">
     <path d="M0 26V0h26m54 0h26v26M0 80v26h26m54 0h26V80"/>
     <path d="m18 79 25-30 17 19 11-13 18 24" stroke-width="5"/>
     <circle cx="74" cy="30" r="9" stroke-width="5"/>
@@ -33,13 +33,13 @@
     <text x="65" y="358" font-size="132" letter-spacing="-7">OAIA</text>
     <text x="72" y="434" font-size="62" letter-spacing="3">STUDIO</text>
   </g>
-  <path d="M74 474h88" stroke="#a8d974" stroke-width="5"/>
-  <text x="72" y="582" fill="#c2cdbb" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="1.5">GENERATE / EDIT / EXPLORE</text>
+  <path d="M74 474h88" stroke="#99c5ff" stroke-width="5"/>
+  <text x="72" y="582" fill="#becbdd" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="1.5">GENERATE / EDIT / EXPLORE</text>
 
   <g transform="translate(568 116) rotate(-9 228 201)" filter="url(#shadow)">
-    <rect width="456" height="402" rx="11" fill="#79916f"/>
-    <rect x="15" y="15" width="426" height="372" rx="5" fill="#2d5145"/>
-    <path d="M15 272 132 155l103 107 85-82 121 105v102H15Z" fill="#598b66"/>
+    <rect width="456" height="402" rx="11" fill="#738daf"/>
+    <rect x="15" y="15" width="426" height="372" rx="5" fill="#2d476b"/>
+    <path d="M15 272 132 155l103 107 85-82 121 105v102H15Z" fill="#597fae"/>
   </g>
   <g transform="translate(671 81) rotate(8 188 229)" filter="url(#shadow)">
     <rect width="376" height="458" rx="11" fill="#d9a177"/>
@@ -52,17 +52,17 @@
     <g clip-path="url(#canvas)">
       <rect width="424" height="370" fill="url(#sky)"/>
       <circle cx="291" cy="92" r="45" fill="#fff1c8"/>
-      <path d="M0 180 64 126 112 160 176 110 238 170 310 130 370 177 424 157v95H0Z" fill="#789583"/>
+      <path d="M0 180 64 126 112 160 176 110 238 170 310 130 370 177 424 157v95H0Z" fill="#8298b5"/>
       <path d="M0 216 99 178 178 198 252 170 338 209 424 191v179H0Z" fill="url(#water)"/>
       <path d="M0 174c66 6 116 39 170 43 36 3 71 22 70 42-1 29-65 49-95 62-24 10-30 28-29 49H0Z" fill="#ead6a5"/>
-      <path d="M0 163c66 10 91 35 136 45 36 8 65 8 77 30 9 16-11 30-38 41-57 24-90 37-91 91H0Z" fill="#548266"/>
-      <path d="M0 241c29-9 53 6 59 25 6 18-16 36-7 55 8 17 8 33 3 49H0Z" fill="#294e40"/>
-      <path d="M265 251h81m-52 21h94m-148 21h85m-114 22h109m-42 24h104" fill="none" stroke="#94c7ae" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/>
-      <path d="M92 220c15 5 28 7 45 10m-32 22 37 10M47 202l20 7" fill="none" stroke="#9db276" stroke-width="4" stroke-linecap="round"/>
+      <path d="M0 163c66 10 91 35 136 45 36 8 65 8 77 30 9 16-11 30-38 41-57 24-90 37-91 91H0Z" fill="#53769f"/>
+      <path d="M0 241c29-9 53 6 59 25 6 18-16 36-7 55 8 17 8 33 3 49H0Z" fill="#294766"/>
+      <path d="M265 251h81m-52 21h94m-148 21h85m-114 22h109m-42 24h104" fill="none" stroke="#96bce6" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/>
+      <path d="M92 220c15 5 28 7 45 10m-32 22 37 10M47 202l20 7" fill="none" stroke="#94b1d9" stroke-width="4" stroke-linecap="round"/>
     </g>
   </g>
 
-  <g transform="translate(1014 452)" stroke="#b3dd84" stroke-width="5" fill="none" stroke-linecap="round">
+  <g transform="translate(1014 452)" stroke="#aacfff" stroke-width="5" fill="none" stroke-linecap="round">
     <path d="M0 0h50v50M50 88v24H26"/>
   </g>
 </svg>
