@@ -51,15 +51,14 @@
     .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; margin-top: 18px; }
     .actions .badge img { display: block; height: 52px; width: auto; }
     .actions .more { font-weight: 600; text-underline-offset: 3px; }
-    .soon { margin-top: 28px; color: var(--muted); font-size: 15px; }
-    .tools { margin-top: 40px; padding-top: 28px; border-top: 1px solid var(--line); }
-    .tools h2 { margin: 0 0 14px; color: var(--muted); font-size: 15px; }
-    .tools h3 { margin: 0; font-size: 24px; }
-    .tools p { margin: 10px 0 0; color: var(--muted); }
-    .tools .requirements { font-size: 15px; }
-    .tools .actions { margin-top: 12px; }
-    .tools .actions a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; text-underline-offset: 3px; }
-    .tools a:focus-visible { outline: 2px solid var(--lime); outline-offset: 5px; }
+    .oaia { margin-top: 32px; }
+    .oaia .banner { border-bottom: 1px solid var(--line); }
+    .oaia .download { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 18px; border: 1px solid var(--ivory); border-radius: 8px; background: var(--ivory); color: var(--deep); font-size: 16px; font-weight: 700; text-decoration: none; }
+    .oaia .download:hover { background: #fff; }
+    .oaia .download svg { width: 20px; height: 20px; flex: none; }
+    .oaia .more { display: inline-flex; align-items: center; min-height: 44px; }
+    .oaia .requirements { margin-top: 14px; font-size: 14px; }
+    .oaia a:focus-visible { outline: 2px solid var(--lime); outline-offset: 5px; }
     footer { border-top: 1px solid var(--line); padding: 22px 24px; text-align: center; font-size: 14px; color: var(--muted); }
   </style>
 </head>
@@ -81,20 +80,19 @@
       </div>
     </article>
 
-    <p class="soon">More games on the way.</p>
-
-    <section class="tools" aria-labelledby="tools-heading">
-      <h2 class="label" id="tools-heading">Tools</h2>
-      <article aria-labelledby="oaia-heading">
-        <h3 class="label" id="oaia-heading">OAIA Studio</h3>
-        <p>Create and edit images in a local macOS web app, with an installable skill for Codex and Claude Code. Use multiple reference images, request native sizes without upscaling, and organize projects in named studios.</p>
-        <p class="requirements">Uses the OpenAI Images API with your own API key and credits.</p>
+    <article class="game oaia" id="oaia-heading" aria-labelledby="oaia-title">
+      <a href="https://github.com/corydorning/oaia-studio"><img class="banner" src="oaia-studio/banner.svg" alt="OAIA Studio" width="1200" height="630" loading="lazy"></a>
+      <div class="body">
+        <h2 class="label" id="oaia-title">OAIA Studio</h2>
+        <p class="kind label">Image creation for Mac</p>
+        <p>Create and edit images in your browser, or work with Codex and Claude Code. Bring your references and keep every image with its prompt and settings.</p>
         <div class="actions">
-          <a href="https://github.com/corydorning/oaia-studio">View project &amp; install</a>
-          <a href="https://github.com/corydorning/oaia-studio/releases/latest/download/oaia-studio.zip">Download ZIP</a>
+          <a class="download" href="https://github.com/corydorning/oaia-studio/releases/latest/download/oaia-studio.zip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg>Download ZIP</a>
+          <a class="more" href="https://github.com/corydorning/oaia-studio">View project &amp; install</a>
         </div>
-      </article>
-    </section>
+        <p class="requirements">Open source. Uses your own OpenAI API key and credits.</p>
+      </div>
+    </article>
   </main>
   <footer>© 2026 Cory Dorning · <a href="mailto:cory@dorning.me">cory@dorning.me</a></footer>
 </body>
