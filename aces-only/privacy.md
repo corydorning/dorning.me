@@ -45,8 +45,8 @@ on another device.
 
 ## Sharing your Daily result
 
-When you tap Share after a Daily, iOS's share sheet opens with a short message (for example "Aces Only, Daily #2, 3/3") and a
-link to the game. You choose whether and where to send it; the game doesn't send it anywhere by itself.
+When you tap Share after a Daily, iOS's share sheet opens with a short message (for example "Aces Only, Daily #2, 3/3").
+You choose whether and where to send it; the game doesn't send it anywhere by itself.
 
 ## Children
 
