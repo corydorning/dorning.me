@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Games by Cory Dorning</title>
-  <meta name="description" content="iPhone games by Cory Dorning, starting with Aces Only Golf: a hole-in-one golf challenge on three courses.">
+  <title>Games &amp; tools by Cory Dorning</title>
+  <meta name="description" content="Games and tools by Cory Dorning: Aces Only Golf for iPhone and OAIA Studio for creating images on Mac.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Cory Dorning">
-  <meta property="og:title" content="Games by Cory Dorning">
-  <meta property="og:description" content="iPhone games by Cory Dorning, starting with Aces Only Golf: a hole-in-one golf challenge on three courses.">
+  <meta property="og:title" content="Games &amp; tools by Cory Dorning">
+  <meta property="og:description" content="Games and tools by Cory Dorning: Aces Only Golf for iPhone and OAIA Studio for creating images on Mac.">
   <meta property="og:url" content="https://dorning.me/">
   <meta property="og:image" content="https://dorning.me/aces-only/share-banner.png">
   <meta property="og:image:width" content="1200">
@@ -52,13 +52,21 @@
     .actions .badge img { display: block; height: 52px; width: auto; }
     .actions .more { font-weight: 600; text-underline-offset: 3px; }
     .soon { margin-top: 28px; color: var(--muted); font-size: 15px; }
+    .tools { margin-top: 40px; padding-top: 28px; border-top: 1px solid var(--line); }
+    .tools h2 { margin: 0 0 14px; color: var(--muted); font-size: 15px; }
+    .tools h3 { margin: 0; font-size: 24px; }
+    .tools p { margin: 10px 0 0; color: var(--muted); }
+    .tools .requirements { font-size: 15px; }
+    .tools .actions { margin-top: 12px; }
+    .tools .actions a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; text-underline-offset: 3px; }
+    .tools a:focus-visible { outline: 2px solid var(--lime); outline-offset: 5px; }
     footer { border-top: 1px solid var(--line); padding: 22px 24px; text-align: center; font-size: 14px; color: var(--muted); }
   </style>
 </head>
 <body>
   <main>
-    <h1 class="label">Games by<br>Cory Dorning</h1>
-    <p class="lede">Made for iPhone.</p>
+    <h1 class="label">Games &amp; tools by<br>Cory Dorning</h1>
+    <p class="lede">Made for iPhone and Mac.</p>
 
     <article class="game">
       <a href="aces-only/"><img class="banner" src="aces-only/share-banner.png" alt="Aces Only Golf" width="1200" height="630"></a>
@@ -74,6 +82,19 @@
     </article>
 
     <p class="soon">More games on the way.</p>
+
+    <section class="tools" aria-labelledby="tools-heading">
+      <h2 class="label" id="tools-heading">Tools</h2>
+      <article aria-labelledby="oaia-heading">
+        <h3 class="label" id="oaia-heading">OAIA Studio</h3>
+        <p>Create and edit images in a local macOS web app, with an installable skill for Codex and Claude Code. Use multiple reference images, request native sizes without upscaling, and organize projects in named studios.</p>
+        <p class="requirements">Uses the OpenAI Images API with your own API key and credits.</p>
+        <div class="actions">
+          <a href="https://github.com/corydorning/oaia-studio">View project &amp; install</a>
+          <a href="https://github.com/corydorning/oaia-studio/releases/latest/download/oaia-studio.zip">Download ZIP</a>
+        </div>
+      </article>
+    </section>
   </main>
   <footer>© 2026 Cory Dorning · <a href="mailto:cory@dorning.me">cory@dorning.me</a></footer>
 </body>
