@@ -91,9 +91,11 @@
     .social-icon { width: 26px; height: 26px; flex: none; fill: var(--accent); }
     .social-name { font-size: 18px; font-weight: 700; }
     @media (min-width: 768px) {
-      .social { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); column-gap: 32px; align-items: start; }
+      .social { display: grid; grid-template-columns: max-content minmax(0, 1fr); column-gap: 20px; align-items: start; }
       .social > .section-heading { grid-column: 1 / -1; }
       .social-bio { margin-bottom: 0; }
+      .social-bio p:first-child { margin-top: 0; }
+      .social-grid { margin-top: 5px; }
     }
     @media (max-width: 380px) {
       main { padding-inline: 20px; }
