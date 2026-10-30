@@ -16,7 +16,15 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#101e32">
   <link rel="canonical" href="https://dorning.me/">
+  <link rel="preload" href="assets/fonts/syne-latin.woff2" as="font" type="font/woff2" crossorigin>
   <style>
+    @font-face {
+      font-family: "Syne";
+      font-style: normal;
+      font-weight: 400 800;
+      font-display: swap;
+      src: url("assets/fonts/syne-latin.woff2") format("woff2");
+    }
     :root { --deep: #101e32; --panel: #172e49; --line: rgba(244, 239, 225, 0.14); --ivory: #f4efe1; --muted: #b6c4d8; --accent: #8ebfff; }
     * { box-sizing: border-box; }
     html { -webkit-text-size-adjust: 100%; }
@@ -35,11 +43,11 @@
     main { flex: 1; width: 100%; max-width: 760px; margin: 0 auto; padding: 56px 24px 40px; }
     .site-header { display: flex; align-items: center; gap: 24px; margin-bottom: 40px; }
     .site-logo { display: block; flex: none; width: 132px; height: auto; }
-    h1 { margin: 0; font-size: clamp(30px, 5vw, 40px); line-height: 1.05; }
+    .site-name { margin: 0; font-family: "Syne", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: clamp(30px, 5vw, 44px); font-weight: 700; line-height: 1.02; letter-spacing: -0.035em; }
+    .site-name span { display: block; }
     @media (max-width: 599px) {
       .site-header { gap: 20px; }
       .site-logo { width: 104px; }
-      .site-name span { display: block; }
     }
     .section-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
     .section-heading h2 { margin: 0; font-size: 26px; line-height: 1.2; }
@@ -115,7 +123,7 @@
   <main>
     <header class="site-header">
       <img class="site-logo" src="assets/cory-dorning-logo.png" alt="" width="1561" height="1007">
-      <h1 class="label site-name"><span>Cory</span> <span>Dorning</span></h1>
+      <h1 class="site-name"><span>Cory</span> <span>Dorning</span></h1>
     </header>
 
     <section aria-labelledby="projects-heading">
